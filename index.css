@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.view{
+    height: 150vh;
+    width: 100%;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+}
+.search{
+    height: 30px;
+    width: 20vh;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.box{
+    height: 20px;
+    width: 20px;
+    margin-left: 60px;
+    background-image: url(search.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.menu{
+    margin: 0px 100px;
+}
+.menu ul{
+    height: 30px;
+    width: 70vh;
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    margin:25px;
+    list-style: none;
+}
+.logo{
+    height: 30px;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+#insta{
+    height: 25px;
+    width: 25px;
+    background-image: url(instagram.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#fb{
+    height: 25px;
+    width: 25px;
+    background-image: url(facebook.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:0px 30px ;
+
+}
+#twit{
+    height: 25px;
+    width: 25px;
+    background-image: url(twitter.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.image{
+    height: 80vh;
+    width: 100%;
+    background-image: url(ishan-seefromthesky-JQGEj_ayWIg-unsplash\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+.text{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#image1{
+    height: 200px;
+    width: 300px;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    background-image: url(manhattanhenge\ BingWallpaper-2019-05-29.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image2{
+    height: 200px;
+    width: 300px;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    background-image: url(Soda\ BingWallpaper-2019-05-25.jpg);
+    margin: 0px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image3{
+    height: 200px;
+    width: 300px;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    background-image: url(james-wheeler-XuAxyq0uRT0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
